@@ -43,7 +43,7 @@ function App() {
       <h1
         className={`text-2xl  text-color`}
       >
-        Working Hover
+        Dummy Text
       </h1>
 
       <button
