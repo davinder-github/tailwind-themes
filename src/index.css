@@ -1,0 +1,36 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+:root {
+  --color:#444444;
+  --primaryBackground: white;
+  --buttonBackground: #fb5f65;
+  --buttonTextColor: #ffffff;
+  --primaryBackground: white;
+  --hoveredColor:white;
+  --primary:#fff9fa;
+  --secondary: #fef6f4;
+}
+.dark {
+  --color:white;
+  --primaryBackground:#252525;
+  --buttonTextColor: #E0E0E0;
+  --primaryBackground:#252525;
+  --hoveredColor:#252525;
+  --primary: #1b1b1b;
+  --secondary: #fb5f65;
+}
+
+button{
+  background-color: var(--buttonBackground);
+  color:var(--buttonTextColor)
+}
+
+body{
+  height:100vh;
+  width: 100vh;
+  background-color: var(--primaryBackground);
+}
